@@ -34,7 +34,7 @@ $(function() {
         }
     });
     //绘制时间刻度尺
-    $("#content").append('<canvas id="ruler" width='+rulerWidth+' height="60"></canvas>');
+    $("#content").append('<canvas id="ruler" width='+rulerWidth+' height="60" style="position: relative"></canvas>');
     drawRuler();
 });
 //获取某个日期之后N天的日期
