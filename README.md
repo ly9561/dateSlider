@@ -4,7 +4,7 @@
 传入最小日期和最大日期，生成日期拖动时间轴，拖动选择具体的某个日期
 实现效果：
 
-![Alt text](https://github.com/ly9561/dateSlider/tree/master/img/effect.png)
+![Alt text](https://raw.githubusercontent.com/ly9561/dateSlider/master/img/effect.png)
 
 思路：
 
