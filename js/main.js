@@ -61,6 +61,8 @@ function drawRuler(){
     let ruler=document.getElementById("ruler");
     let context=ruler.getContext("2d");
     context.font="lighter 12px 宋体";
+    context.strokeStyle="white";
+    context.fillStyle="white";
     context.textAlign="center";
     context.textBaseline="middle";
 
@@ -110,7 +112,6 @@ function drawRuler(){
         j+=getDaysInMonth(min_year,thisMonth+1)*oneDayInterval;
         if(thisMonth===11){
             context.save();
-            context.fillStyle="#3bb0ff";
             context.font="lighter 15px 宋体";
             context.fillText(min_year+'年',j+50,10);
             context.restore();
