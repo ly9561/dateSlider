@@ -21,11 +21,11 @@ $(function() {
         max: dateLength,
         step: 1,
         create:function(){
-            $("#date-label").css("padding-left",length*(today/dateLength));
+            $("#date-label").css("margin-left",length*(today/dateLength));
             $("#date-label").text(getAfterDate(mindate,today));
         },
         slide: function( event, ui ) {
-            $("#date-label").css("padding-left",length*(ui.value/dateLength));
+            $("#date-label").css("margin-left",length*(ui.value/dateLength));
             $("#date-label").text(getAfterDate(mindate,ui.value));
         },
         change: function( event, ui ) {
