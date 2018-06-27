@@ -8,6 +8,13 @@
 4.关于刻度尺的思路：刻度之间的间隔是根据每个月的天数决定的，其位置也是通过像素进行定位的
 */
 
+(function ($) {
+    $.widget("dateSlider",$.ui.slider,{
+
+    })
+})(jQuery);
+
+
 var mindate='2017-09-02';
 var maxdate='2018-08-31';
 var dateLength=getDays(mindate,maxdate);
